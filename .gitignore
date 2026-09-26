@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 运行产物（可重新生成）
+logs/
+build/
+
+# 用户数据：不要把计数矩阵与结果表提交进 Git
+# （这是项目文档第七节明确列的禁忌之一）
+data/*.csv
+data/reference/
+data/intermediates/
+data/nbis/*.csv
+data/nbis/intermediates/
+
+# 编辑器
+.vscode/
+.idea/
+
+# 本地私有资料，不上传
+_私有文档/
+
+
+# 上传时临时用的资料（文案/说明），不随仓库发布
+GITHUB-上传资料.md
+
