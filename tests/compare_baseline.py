@@ -468,7 +468,7 @@ def diag(mine_res, ref_res, ref_disp, n=12):
 def disp_ablation(mine_disp, ref_res, lines):
     """把 M2 的三个阶段分别接进 GLM，看与官方 log2FC 的吻合度如何变化。
 
-    为什么需要这个实验：项目文档的「良好」档有一条硬要求：
+    为什么需要这个实验：验收标准里有一条硬要求：
     「能定量说明『趋势拟合前后，对拍结果改善了多少』」。只看
     `dispGeneEst / dispFit / dispMAP` 三列各自与官方的相关系数是不够的，
     那说明的是「离散度本身像不像」；这里要回答的是**最终结果**变好了多少。

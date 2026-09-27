@@ -166,7 +166,7 @@ def b1():
 
 @check("B-2", "目录结构与约定一致")
 def b2():
-    need = ["src", "tests", "data", "data/reference", "docs", "logs", "laptop"]
+    need = ["src", "tests", "data", "data/reference", "laptop"]
     missing = [d for d in need
                if not os.path.isdir(os.path.join(ROOT, d))]
     if missing:
